@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CallBaker</title>
+</head>
+<body>
+    <div id="element" data-cb-click data-cb-toggle>Hello World</div>
+    <script src="callbaker.js"></script>
+    <script>
+    var ele = document.getElementById('element'),
+        event = callbaker.register(ele);
+
+    // Listen to event
+    callbaker.on(ele, 'toggle', function (event) {
+        console.log(event.target);
+    });
+
+    // Trigger event
+    event.trigger('toggle');
+    </script>
+</body>
+</html>
