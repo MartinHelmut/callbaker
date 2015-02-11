@@ -7,6 +7,7 @@
  * functions and trigger custom event types.
  *
  * @author: Martin Helmut Fieber <info@martin-fieber.de>
+ * @github: https://github.com/MartinHelmut/callbaker
  */
 (function (window) {
     'use strict';
