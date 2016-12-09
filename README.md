@@ -3,6 +3,8 @@
 Event system based on data attributes. Register and listen to element bound 
 functions and trigger custom event types.
 
+**WARNING!** This repo is deprecated, please don't use any of this in your application!
+
 ## Usage
 
 Include the *callbaker* script in your page. Set some data attributes **you** 
